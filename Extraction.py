@@ -1,5 +1,6 @@
 import buckeye
-speaker = buckeye.Speaker.from_zip('C:\\Users\Hadi\\Downloads\\s01.zip', load_wavs=True)
+# speaker = buckeye.Speaker.from_zip('C:\\Users\Hadi\\Downloads\\s01.zip', load_wavs=True)
+speaker = buckeye.Speaker.from_zip('s01.zip', load_wavs=True)
 print(speaker.name)
 print(speaker.sex) # f for female, m for male
 print(speaker.age) # o for old, y for young
@@ -33,6 +34,7 @@ logs = track.get_logs(60.0, 62.0)
 for log in logs:
     print(log.entry, log.beg, log.end)
 print(track.txt[1])
-speaker = buckeye.Speaker.from_zip('speakers/s01.zip', load_wavs=True)
+# speaker = buckeye.Speaker.from_zip('speakers/s01.zip', load_wavs=True)
+speaker = buckeye.Speaker.from_zip('s01.zip', load_wavs=True)
 track = speaker[0]
 print(track.wav)
