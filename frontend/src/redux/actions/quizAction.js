@@ -1,7 +1,9 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-expressions */
 import quizApi from "../../apis/quizApi";
 import QUIZ_CONSTANT from "../constants/quizConstant";
-import authReducer from "../reducers/authReducer";
-import { TonalitySharp } from "@mui/icons-material";
+// import authReducer from "../reducers/authReducer";
+// import { TonalitySharp } from "@mui/icons-material";
 
 export const getQuiz = (id) => {
     return async (dispatch, getState) => {
