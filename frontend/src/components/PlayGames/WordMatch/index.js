@@ -1,4 +1,5 @@
-import React, { useRef, useState } from 'react';
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import SplitWord from './SplitWord';
 import CorrectWordResult from '../Result';
