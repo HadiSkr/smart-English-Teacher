@@ -1,5 +1,5 @@
 // import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import WordPackSetting from './WordPackSetting';
 import WordSkeleton from './WordSkeleton';
 import GrammarItem from './GrammarItem/index';
@@ -7,7 +7,7 @@ import ListenItem from './ListeningItem/index';
 // import AutoSearchInput from '../UI/AutoSearchInput';
 import InfiniteScroll from '../UI/InfiniteScroll';
 // import SortTypeModal from '../UI/SortType';
-import { ROUTES } from '../../constants/index';
+// import { ROUTES } from '../../constants/index';
 import useTitle from '../../hooks/useTitle'
 import PropTypes from 'prop-types';
 // import AddIcon from '@mui/icons-material/Add';
