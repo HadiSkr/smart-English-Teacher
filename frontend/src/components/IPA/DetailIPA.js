@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+/* eslint-disable jsx-a11y/iframe-has-title */
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import Speaker from "../UI/Speaker";
@@ -20,6 +21,7 @@ function IPAGroupCollapse() {
   const ipa = useSelector((state) => state.ipaReducer.ipa);
 
   const dispatch = useDispatch();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => dispatch(getIPA(id)), [dispatch]);
 
   const history = useNavigate();
