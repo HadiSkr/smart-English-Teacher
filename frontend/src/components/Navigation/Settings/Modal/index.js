@@ -30,19 +30,19 @@ function SettingModal({ open, onClose }) {
 
       <DialogContent classes={{ root: classes.content }}>
         <div className={classes.contentItem}>
-          <h2 className={classes.contentLabel}>Chủ đề</h2>
+          <h2 className={classes.contentLabel}>Topic</h2>
           <ThemeSetting />
         </div>
 
         <div className={classes.contentItem}>
-          <h2 className={classes.contentLabel}>Giọng đọc</h2>
+          <h2 className={classes.contentLabel}>Accent</h2>
           <VoiceSetting />
         </div>
 
         <div className={classes.contentItem}>
-          <h2 className={classes.contentLabel}>Cài đặt khác</h2>
+          <h2 className={classes.contentLabel}>Other settings</h2>
           <div>
-            <h3 className="english-label my-5">Hiện/Ẩn thanh điều hướng</h3>
+            <h3 className="english-label my-5">Show/Hide navigation bar</h3>
             <ToggleNavButton />
           </div>
         </div>
