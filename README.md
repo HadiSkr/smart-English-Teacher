@@ -55,3 +55,11 @@ cd backend
 npm start (or yarn dev to run dev environment)
 cd frontend 
 npm start (yarn start)
+
+# This project is not yet finished, read imoprtant note
+
+## Important note:
+The main project was made in this <a href="https://github.com/MetantiConan/LearningPronunciation.git">repo</a>
+<br/>
+you can find the other project we made for mobile <a href="https://github.com/MetantiConan/SmartEnglishCorrector">here</a>
+
